@@ -15,9 +15,9 @@ Folder content:
 	International Journal of Geographical Information Science 18, no. 3 
 	(2004): 229--256.
 	This dataset contains the concept mappings to OpenStreetMap tags.
-* web_map_semantics: 
+* web_map_semantics: TODO
 ================================================================================
 Author: Andrea Ballatore (School of Computer Science and Informatics,
 	University College Dublin)
-Project home page: https://github.com/andrea-ballatore/Datasets
+Project home page: http://github.com/ucd-spatial
 ================================================================================
