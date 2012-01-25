@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<!--
+ This file contains the scale mapping.
+ The zoom level range is [0,18], where 0 is the max scale and 18 is the lowest.
+ 
+ The "where" property is based on http://developers.cloudmade.com/wiki/geocoding-http-api/Object_Types
+ 
+ Full map features list: http://wiki.openstreetmap.org/wiki/Map_Features
+ -->
+<categories source="http://developers.cloudmade.com/wiki/geocoding-http-api/Object_Types">
+	<!--
+		Zoom level range: 0-18
+		based on "The Original" 
+		http://maps.cloudmade.com/editor/
+	 -->
+	<category name="Country">
+		<entry key="continent" visibility="0-6" tested="no" where="place='continent'" ></entry>
+		<entry key="country" visibility="0-6" tested="no" where="place='country'" ></entry>
+	</category>
+	 
+	<category name="Road">
+		<entry key="tag_highway" visibility="5-18" tested="no" where="highway IS NOT NULL" tables="road"></entry>
+		<entry key="motorway" visibility="5-18" tested="no" where="highway='motorway' OR highway='motorway' " tables="road"></entry>
+		<entry key="trunk" visibility="5-18" tested="no" where="highway='trunk' OR highway='trunk link'" tables="road"></entry>
+		<entry key="primary" visibility="7-18" tested="no"  where="highway='primary'" tables="road"></entry>
+		<entry key="secondary" visibility="9-18" tested="no" where="highway='secondary'"  tables="road"></entry>
+		<entry key="tertiary" visibility="12-18" tested="no" where="highway='tertiary'"  tables="road"></entry>
+		<entry key="residential" visibility="12-18" tested="no" where="highway='residential'"  tables="road"></entry>
+		<entry key="living_street" visibility="13-18" tested="no" where="highway='living street'" tables="road"></entry>
+		<entry key="track" visibility="13-18" tested="no" where="highway='track'"  tables="road"></entry>
+		<entry key="bridge" visibility="16-18" tested="no" where="bridge IS NOT NULL AND bridge != 'no'" ></entry>
+		
+	</category>
+	
+	<category name="Path">
+		<entry key="path" editorKey="footpath" visibility="13-18" tested="no" where="highway='path'" ></entry>
+		<entry key="pedestrian" editorKey="" visibility="14-18" tested="no" where="highway='pedestrian'" ></entry>
+		<entry key="cycleway" editorKey="cycle path" visibility="13-18" tested="no" where="highway='cycleway'" ></entry>
+		<!-- no entries <entry key="bridleway" editorKey="" visibility="13-18" tested="no"></entry>-->
+		<entry key="steps" editorKey="steps" visibility="13-18" tested="no" where="highway='steps'" ></entry>
+	</category>
+	
+	<category name="Railway">
+		<!-- some types are present in the UK but not in Ireland -->
+		<entry key="tag_railway" visibility="8-18" tested="no" where="railway IS NOT NULL" >railway</entry>
+		<entry key="subway_entrance" visibility="14-18" tested="no" where="railway='subway entrance'" >railway</entry>
+		<entry key="subway" visibility="12-18" tested="no" where="railway='subway'" ></entry>
+		<entry key="tram" visibility="10-18" tested="no" where="railway='tram'" ></entry>
+		<!-- <entry key="tram_stop" visibility="all" tested="no"></entry>  -->
+		<!-- no entry <entry key="monorail" visibility="10-18" tested="no"></entry>-->
+		<entry key="platform" visibility="12-18" tested="no" where="railway='platform'" ></entry>
+		<entry key="station" visibility="12-18" tested="no" where="railway='station'" >railway</entry>
+	</category>
+	
+	<category name="Landscape">
+		<!-- land on lake/sea -->
+		<entry key="land" visibility="9-18" tested="no" where="nature='land'" ></entry>
+		<entry key="tag_landuse" visibility="9-18" tested="no" where="landuse IS NOT NULL" ></entry>
+		<!-- All nature features -->
+		<entry key="tag_nature" visibility="9-18" tested="no" where="nature IS NOT NULL" ></entry>
+		<entry key="forest" visibility="9-18" tested="no" where="landuse='forest'" ></entry>
+		<entry key="wood" visibility="10-18" tested="no" where="nature='wood' OR wood IS NOT NULL" ></entry>
+		<entry key="common" visibility="10-18" tested="no" where="leisure='common'" >leisure</entry>
+		<entry key="meadow" visibility="10-18" tested="no" where="nature='meadow'" ></entry>
+		<entry key="farm" visibility="12-18" tested="no" where="landuse='farm' OR landuse='farmyard'" ></entry>
+		<!-- 
+		<entry key="commercial" visibility="10-18" tested="no"></entry>
+		<entry key="industrial" visibility="10-18" tested="no"></entry>
+		-->
+		<entry key="building" visibility="14-18" tested="no" where="amenity='public building' OR building IS NOT NULL"></entry>
+		<entry key="park" visibility="10-18" tested="no" where="leisure='park'"></entry>
+		<entry key="garden" visibility="10-18" tested="no" where="landuse='garden'"></entry>
+		<!-- no entries <entry key="village green" visibility="11-18" tested="no" skip="yes"></entry> -->
+		<entry key="allotments" visibility="10-18" tested="no" where="landuse='allotments'"></entry>
+		<!-- present in the UK but not in Ireland -->
+		<entry key="brownfield" visibility="10-18" tested="no" where="landuse='brownfield'"></entry>
+		<entry key="tag_barrier" visibility="16-18" tested="no" where="barrier IS NOT NULL"></entry>
+		
+		<!-- not present <entry key="danger area" visibility="10-18" tested="no"></entry> -->
+		<!-- not present <entry key="peak" visibility="11-18" tested="no"></entry> -->
+	</category>
+	
+	<category name="Water">
+		<!-- <entry key="ocean" visibility="0-4" tested="no"></entry> -->
+		<!-- buggy results from CloudMade
+		<entry key="lake" visibility="0-5" tested="no"></entry>
+		 -->
+		<!-- includes lakes -->
+		<entry key="water" visibility="7-18" tested="no" where="nature='water'"></entry>
+		<entry key="tag_waterway" visibility="16-18" tested="no" where="waterway IS NOT NULL"></entry>
+		<entry key="river" visibility="12-18" tested="no"  where="waterway='river' OR waterway='riverbank'"></entry>
+		<entry key="stream" visibility="13-18" tested="no" where="waterway='stream'"></entry>
+		<entry key="canal" visibility="12-18" tested="no" where="waterway='canal'"></entry>
+		<entry key="dock" visibility="14-18" tested="no" where="waterway='dock'"></entry>
+		<entry key="basin" visibility="14-18" tested="no" where="nature='water'"></entry>
+		<entry key="dam" visibility="14-18" tested="no" where="waterway='dam'"></entry>
+	</category>
+
+	<category name="Places">
+		<!-- too generic <entry key="area" editorKey="city area" visibility="8-10" tested="no"></entry> -->
+		<entry key="tag_place" visibility="6-14" tested="no" where="place IS NOT NULL"></entry>
+		<entry key="city" visibility="6-14" tested="no" where="place='city'"></entry>
+		<entry key="county" visibility="8-11" tested="no" where="place='county'"></entry>
+		<entry key="town" visibility="9-15" tested="no" where="place='town'"></entry>
+		<entry key="suburb" visibility="9-15" tested="no" where="place='suburb'"></entry>
+		<entry key="village" visibility="12-15" tested="no" where="place='village'"></entry>
+		<entry key="hamlet" visibility="14-18" tested="no" where="place='hamlet'"></entry>
+		<entry key="locality" visibility="14-18" tested="no" where="place='locality'"></entry>
+		<entry key="tag_boundary" visibility="14-18" tested="no" where="boundary IS NOT NULL"></entry>
+		<entry key="island" visibility="10-18" tested="no"  where="place='island'"></entry> -->
+	</category>
+	
+	<category name="Airports">
+		<entry key="airport" visibility="10-12" tested="no" where="amenity='airport'"></entry>
+		<entry key="tag_aeroway" visibility="10-12" tested="no" where="aeroway IS NOT NULL OR aerialway IS NOT NULL"></entry>
+		<entry key="aerodrome" visibility="10-16" tested="no" where="aeroway='aerodrome'"></entry>
+		<entry key="terminal" visibility="12-18" tested="no" where="aeroway='terminal'"></entry>
+	</category>
+	
+	<category name="Power">
+		<entry key="tag_power" visibility="13-18" tested="no" where="power IS NOT NULL">power</entry>
+		<entry key="tag_power_source" visibility="13-18" tested="no" where="power_source IS NOT NULL">power</entry>
+		<entry key="sub_station" visibility="13-18" tested="no" where="power='sub_station'">power</entry>
+		<entry key="power_station" visibility="13-18" tested="no" where="power='station'">power</entry>
+		<entry key="line" visibility="14-18" tested="no" where="power='line'">power</entry>
+		<!-- no entry <entry key="tower" visibility="14-18" tested="no">power</entry> -->
+	</category>
+	
+	<category name="Other transport">
+		<entry key="parking" visibility="16-18" tested="no" where="amenity='parking'"></entry>
+		<entry key="fuel" visibility="16-18" tested="no" where="amenity='fuel'"></entry>
+		<entry key="car_rental" visibility="16-18" tested="no" where="amenity='car_rental'"></entry>
+		<entry key="taxi" visibility="17-18" tested="no" where="amenity='taxi'"></entry>
+		<entry key="bus_stop" visibility="17-18" tested="no" where="highway='bus_stop'"></entry>
+		<entry key="bus_station" visibility="15-18" tested="no" where="amenity='bus_station'"></entry>
+		<entry key="bicycle_parking" visibility="15-18" tested="no" where="amenity='bicycle_parking'"></entry>
+		<entry key="bicycle_rental" visibility="16-18" tested="no" where="amenity='bicycle_rental'"></entry>
+		<entry key="bike_lane" visibility="14-18" tested="no" where="bicycle='lane'"></entry>
+		<entry key="bike_track" visibility="14-18" tested="no" where="bicycle='track'"></entry>
+	</category>	
+	
+	<category name="Tourism">
+		<entry key="tag_historic" editorKey="N.A."  visibility="16-18" tested="no" where="historic IS NOT NULL"></entry>
+		<entry key="tag_tourism" editorKey="N.A."  visibility="16-18" tested="no" where="tourism IS NOT NULL"></entry>
+		<entry key="tag_religion" editorKey="N.A."  visibility="16-18" tested="no" where="religion IS NOT NULL"></entry>
+		<entry key="attraction" visibility="14-18" tested="no" where="tourism='attraction'"></entry>
+		<entry key="museum" editorKey="museum" visibility="15-18" tested="no" where="tourism='museum'"></entry>
+		<entry key="theatre" editorKey="N.A." visibility="16-18" tested="no" where="amenity='theatre'"></entry>
+		<entry key="cinema" editorKey="N.A." visibility="16-18" tested="no" where="amenity='cinema'"></entry>
+		<entry key="castle" editorKey="N.A."  visibility="16-18" tested="no" where="historic='castle'"></entry>
+		<entry key="cliff" editorKey="N.A." visibility="12-18" tested="no" where="nature='cliff'"></entry>
+		<entry key="coastline" editorKey="N.A." visibility="10-16" tested="no" where="nature='coastline'"></entry>
+		<entry key="memorial" editorKey="N.A." visibility="16-18" tested="no" where="historic='memorial'"></entry>
+		<entry key="artwork" editorKey="N.A." visibility="16-18" tested="no" where="tourism='artwork'"></entry>
+		<entry key="arts_centre" editorKey="N.A." visibility="16-18" tested="no" where="amenity='arts_centre'"></entry>		
+		<entry key="information" visibility="17-18" tested="no" where="tourism='information'"></entry>
+		<entry key="hotel" visibility="16-18" tested="no" where="tourism='hotel'"></entry>
+		<entry key="motel" visibility="16-18" tested="no" where="tourism='motel'"></entry>
+		<entry key="hostel" visibility="16-18" tested="no" where="tourism='hostel'"></entry>
+		<entry key="viewpoint" visibility="16-18" tested="no" where="tourism='viewpoint'"></entry>
+		<entry key="windmill" visibility="16-18" tested="no" where="man_made='windmill'"></entry>
+		<entry key="beach" visibility="12-18" tested="no" where="nature='beach'"></entry>
+		
+	</category>
+	
+	<category name="Public Services">
+		<!-- get all amenities -->
+		<entry key="tag_amenity" editorKey="N.A." visibility="16-18"  tested="no" where="amenity IS NOT NULL"></entry>
+		<entry key="place_of_worship" editorKey="place of worship" visibility="16-18"  tested="no" where="amenity='place_of_worship'"></entry>
+		<entry key="school" editorKey="school" visibility="14-18" tested="no" where="amenity='school'"></entry>
+		<entry key="university" editorKey="university, college" visibility="12-18" tested="no" where="amenity='university'"></entry>
+		<entry key="college" editorKey="college" visibility="12-18" tested="no" where="amenity='college'"></entry>
+		<entry key="hospital" editorKey="hospital" visibility="12-18" tested="no" where="amenity='hospital'"></entry>
+		<entry key="police" editorKey="police" visibility="14-18" tested="no" where="amenity='police'"></entry>
+		<entry key="post_office" editorKey="post office" visibility="17-18" tested="no" where="amenity='post_office'"></entry>
+		<entry key="post_box" editorKey="post box" visibility="17-18" tested="no" where="amenity='post_box'"></entry>
+		<entry key="playground" editorKey="playground" visibility="13-18" tested="no" where="leisure='playground'"></entry>
+		<entry key="prison" editorKey="prison" visibility="13-18" tested="no" where="amenity='prison'"></entry>
+		<entry key="toilets" editorKey="public toilets" visibility="17-18"  where="amenity='toilets'"></entry>
+		<entry key="recycling" editorKey="recycling" visibility="16-18" tested="no" where="amenity='recycling'"></entry>
+		<entry key="telephone" editorKey="telephone" visibility="17-18" tested="no" where="amenity='telephone'"></entry>
+		<entry key="tag_man_made" editorKey="N.A." visibility="16-18" tested="no" where="man_made IS NOT NULL"></entry>
+		
+	</category>
+		
+	<category name="Commercial">
+		<entry key="pub" editorKey="pub" visibility="16-18" tested="no"  where="amenity='pub'"></entry>
+		<entry key="cafe" editorKey="cafe" visibility="16-18"  tested="no" where="amenity='cafe'"></entry>
+		<entry key="restaurant" editorKey="restaurant" visibility="16-18" tested="no" where="amenity='restaurant'"></entry>
+		<entry key="nightclub" editorKey="N.A." visibility="16-18" tested="no" where="amenity='nightclub'"></entry>
+		<entry key="fast_food" editorKey="fast food" visibility="16-18" tested="no" where="amenity='fast_food'"></entry>
+		<entry key="supermarket" editorKey="supermarket" visibility="15-18" tested="no" where="amenity='supermarket'"></entry>
+		<entry key="convenience" editorKey="convenience store" visibility="16-18" tested="no" where="amenity='convenience'"></entry>
+		<entry key="pharmacy" editorKey="pharmacy" visibility="16-18" tested="no" where="amenity='pharmacy'"></entry>
+		<entry key="atm" editorKey="ATM" visibility="17-18" tested="no" where="amenity='atm'"></entry>
+		<entry key="bank" editorKey="bank" visibility="16-18" tested="no" where="amenity='bank'"></entry>
+		<!-- no entries <entry key="currency_exchange" editorKey="currency exchange" visibility="16-18" tested="no"></entry>-->
+	</category>
+	
+	<category name="Sports">
+		<entry key="tag_leisure" editorKey="N.A." visibility="14-18" tested="no" where="leisure IS NOT NULL"></entry>
+		<entry key="tag_sport" editorKey="N.A." visibility="14-18" tested="no" where="sport IS NOT NULL"></entry>
+		<entry key="stadium" editorKey="N.A." visibility="14-18" tested="no" where="leisure='stadium'"></entry>
+		<entry key="golf_course" editorKey="golf course" visibility="14-18" tested="no" where="leisure='golf_course'"></entry>
+		<entry key="recreation_ground" editorKey="recreation ground" visibility="14-18" tested="no" where="landuse='recreation_ground'"></entry>
+		<entry key="sports_centre" editorKey="sports centre" visibility="14-18"  where="leisure='sports_centre'"></entry>
+		<entry key="pitch" editorKey="pitch" visibility="14-18"   where="leisure='pitch'"></entry>
+		<entry key="gym" editorKey="N.A." visibility="15-18"   where="leisure='gym'"></entry>
+		
+	</category>
+	
+</categories>

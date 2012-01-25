@@ -1,0 +1,34 @@
+MDSM CONCEPT	OSM CONCEPT
+sports arena	http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dsports_centre
+ball park	http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dpitch
+athletic field	http://wiki.openstreetmap.org/wiki/Tag:sports%3Dathletics
+tennis court	http://wiki.openstreetmap.org/wiki/Tag:sport%3Dtennis
+theater	http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtheatre
+commons	http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dcommon
+museum	http://wiki.openstreetmap.org/wiki/Tag:tourism%3Dmuseum
+building	http://wiki.openstreetmap.org/wiki/Key:building
+library	http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dlibrary
+house	http://wiki.openstreetmap.org/wiki/Tag:building%3Dhouse
+transportation	No correspondent OSM concept
+stadium	http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dstadium
+road	http://wiki.openstreetmap.org/wiki/Tag:highway%3Droad
+highway	http://wiki.openstreetmap.org/wiki/Tag:highway%3Dprimary
+path	http://wiki.openstreetmap.org/wiki/Tag:highway%3Dpath
+railway	http://wiki.openstreetmap.org/wiki/Key:railway
+bridge	http://wiki.openstreetmap.org/wiki/Key:bridge
+subway station	http://wiki.openstreetmap.org/wiki/Tag:public_transport%3Dstation
+airport	http://wiki.openstreetmap.org/wiki/Tag:aeroway%3Daerodrome
+terminal	No correspondent OSM concept
+port	http://wiki.openstreetmap.org/wiki/Tag:waterway%3Ddock
+travelway	http://wiki.openstreetmap.org/wiki/Key:highway
+forest	http://wiki.openstreetmap.org/wiki/Tag:natural%3Dwood
+city	http://wiki.openstreetmap.org/wiki/Tag:place%3Dcity
+desert	No correspondent OSM concept
+river	http://wiki.openstreetmap.org/wiki/Tag:waterway%3Driver
+beach	http://wiki.openstreetmap.org/wiki/Tag:natural%3Dbeach
+lagoon	No correspondent OSM concept
+island	http://wiki.openstreetmap.org/wiki/Tag:place%3Disland
+wetland	http://wiki.openstreetmap.org/wiki/Tag:natural%3Dwetland
+pond	http://wiki.openstreetmap.org/wiki/Tag:landuse%3Dpond
+mountain	http://wiki.openstreetmap.org/wiki/Tag:natural%3Dpeak
+lake	http://wiki.openstreetmap.org/wiki/Tag:natural%3Dwater
