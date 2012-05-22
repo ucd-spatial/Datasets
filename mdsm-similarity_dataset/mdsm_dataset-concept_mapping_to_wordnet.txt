@@ -1,0 +1,34 @@
+MDSM CONCEPT	WORDNET3 SYNSET
+sports arena	sports_arena#n#1
+ball park	ball_park#n#1
+athletic field	athletic_field#n#1
+tennis court	tennis_court#n#1
+theater	theater#n#1
+commons	commons#n#1
+museum	museum#n#1
+building	building#n#1
+library	library#n#1
+house	house#n#1
+transportation	transportation#n#1
+stadium	stadium#n#1
+road	road#n#1
+highway	highway#n#1
+path	path#n#3
+railway	railway#n#1
+bridge	bridge#n#1
+subway station	subway_station#n#1
+airport	airport#n#1
+terminal	terminal#n#1
+port	port#n#1
+travelway	travelway#n#1
+forest	forest#n#1
+city	city#n#1
+desert	desert#n#1
+river	river#n#1
+beach	beach#n#1
+lagoon	lagoon#n#1
+island	island#n#1
+wetland	wetland#n#1
+pond	pond#n#1
+mountain	mountain#n#1
+lake	lake#n#1
