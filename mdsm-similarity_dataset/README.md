@@ -21,7 +21,7 @@ The dataset was used in:
 
 > Ballatore, Wilson, Bertolotto: Geographic knowledge extraction and semantic similarity in OpenStreetMap, *Knowledge and Information Systems* (2012) [[link]](http://link.springer.com/article/10.1007%2Fs10115-012-0571-0)
 
-### Author & Mantainer ### 
+### Author & Mantainer ###
 
 Andrea Ballatore <http://sites.google.com/site/andreaballatore>
 
