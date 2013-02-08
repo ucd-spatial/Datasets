@@ -10,9 +10,15 @@ Members & contributors:
 * Dr. Michela Bertolotto <http://www.csi.ucd.ie/staff/mbertolotto/home>
 * Dr. David C. Wilson <http://coitweb.uncc.edu/~davils>
 
+Research areas: **geographic information systems**, **geo-semantics**, **volunteered geographic information**, **semantic similarity**, **crowd-sourcing**, **semantic web**
+
+Research projects: 
+
+* [OpenStreetMap Semantic Network](http://wiki.openstreetmap.org/wiki/OSM_Semantic_Network)
+
 This repository contains the following datasets:
 
-### [MDSM Geo-Similarity Dataset](https://github.com/ucd-spatial/Datasets/tree/master/mdsm-similarity_dataset) ###
+### [MDSM Geo-Semantic Similarity Dataset](https://github.com/ucd-spatial/Datasets/tree/master/mdsm-similarity_dataset) ###
 
 Human-generated similarity rankings of geographic concepts, originally published in:
 > MA Rodriguez, and MJ Egenhofer. Comparing geospatial entity classes: an asymmetric and context-dependent Similarity Measure. *International Journal of Geographical Information Science*, 18, no. 3 (2004): 229-256.
