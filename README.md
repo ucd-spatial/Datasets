@@ -29,15 +29,6 @@ This repository contains the following datasets:
 Human-generated similarity rankings of geographic concepts to assess the cognitive plausibility of similarity measures.
 All the files are tab-separated tables, containing the concept definitions, the similarity rankings, and the mappings with OpenStreetMap and WordNet.
 
-[Download zipped dataset](https://github.com/ucd-spatial/Datasets/blob/master/mdsm-similarity_dataset.zip?raw=true).
-
-The data was originally published in:
-> MA Rodriguez, and MJ Egenhofer. Comparing geospatial entity classes: an asymmetric and context-dependent Similarity Measure. *International Journal of Geographical Information Science*, 18, no. 3 (2004): 229-256.
-
-The dataset was used in:
-
-> Ballatore, Wilson, Bertolotto: Geographic knowledge extraction and semantic similarity in OpenStreetMap, *Knowledge and Information Systems* (2012) [[link]](http://link.springer.com/article/10.1007%2Fs10115-012-0571-0)
-
 ### 2. [Experiment results](https://github.com/ucd-spatial/Datasets/tree/master/experiments_results) ###
 
 Various datasets generated in empirical evaluations.
