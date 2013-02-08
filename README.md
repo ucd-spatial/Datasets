@@ -14,11 +14,14 @@ Members & contributors:
 
 This repository contains the following datasets:
 
-* [MDSM Geo-Similarity Dataset](https://github.com/ucd-spatial/Datasets/tree/master/mdsm-similarity_dataset): human-generated similarity rankings of geographic concepts, originally published in: 
+[MDSM Geo-Similarity Dataset](https://github.com/ucd-spatial/Datasets/tree/master/mdsm-similarity_dataset)
+----------------------
+Human-generated similarity rankings of geographic concepts, originally published in: 
 > MA Rodriguez, and MJ Egenhofer. Comparing geospatial entity classes: an asymmetric and context-dependent Similarity Measure. *International Journal of Geographical Information Science*, 18, no. 3 (2004): 229-256.
 The dataset also contains the concept mappings to OpenStreetMap tags, and was used in
 > Ballatore, Wilson, Bertolotto: Geographic knowledge extraction and semantic similarity in OpenStreetMap [link](http://link.springer.com/article/10.1007%2Fs10115-012-0571-0)
-* [Other datasets](https://github.com/ucd-spatial/Datasets/tree/master/experiments_results):
+
+[Other datasets](https://github.com/ucd-spatial/Datasets/tree/master/experiments_results):
 	various datasets used in evaluation of research papers.
 
 
