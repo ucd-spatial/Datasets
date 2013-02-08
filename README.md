@@ -19,11 +19,15 @@ Human-generated similarity rankings of geographic concepts, originally published
 
 The dataset also contains the concept mappings to OpenStreetMap tags, and was used in
 
-> Ballatore, Wilson, Bertolotto: Geographic knowledge extraction and semantic similarity in OpenStreetMap, Knowledge and Information Systems (2012) [[link]](http://link.springer.com/article/10.1007%2Fs10115-012-0571-0)
+> Ballatore, Wilson, Bertolotto: Geographic knowledge extraction and semantic similarity in OpenStreetMap, *Knowledge and Information Systems* (2012) [[link]](http://link.springer.com/article/10.1007%2Fs10115-012-0571-0)
 
-### [Other datasets](https://github.com/ucd-spatial/Datasets/tree/master/experiments_results) ###
+### [Experiment results](https://github.com/ucd-spatial/Datasets/tree/master/experiments_results) ###
 
-Various datasets used in evaluation of research papers.
+Various datasets generated in empirical evaluations.
+
+`osm_network_similarity_experiment-2011.07.23` was used in:
+
+> Ballatore, Wilson, Bertolotto: Geographic knowledge extraction and semantic similarity in OpenStreetMap, *Knowledge and Information Systems* (2012) [[link]](http://link.springer.com/article/10.1007%2Fs10115-012-0571-0)
 
 License
 ----------------------
