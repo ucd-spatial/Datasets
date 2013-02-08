@@ -18,18 +18,20 @@ Research areas:
 * Crowdsourcing
 * Semantic web
 
-Research projects: [OpenStreetMap Semantic Network](http://wiki.openstreetmap.org/wiki/OSM_Semantic_Network)
-
 Datasets
 ----------------------
 This repository contains the following datasets:
 
-### 1. [MDSM Geo-Semantic Similarity Dataset](https://github.com/ucd-spatial/Datasets/tree/master/mdsm-similarity_dataset) ###
+### 1. [OSM Semantic Network](http://wiki.openstreetmap.org/wiki/OSM_Semantic_Network) ###
+
+The OSM Semantic Network is a Semantic Web resource extracted from the OSM Wiki website, encoded as a SKOS vocabulary. It contains a machine-readable representation of OSM tags, and several semantic relations between them.
+
+### 2. [MDSM Geo-Semantic Similarity Dataset](https://github.com/ucd-spatial/Datasets/tree/master/mdsm-similarity_dataset) ###
 
 Human-generated similarity rankings of geographic concepts to assess the cognitive plausibility of similarity measures.
 All the files are tab-separated tables, containing the concept definitions, the similarity rankings, and the mappings with OpenStreetMap and WordNet.
 
-### 2. [Experiment results](https://github.com/ucd-spatial/Datasets/tree/master/experiments_results) ###
+### 3. [Experiment results](https://github.com/ucd-spatial/Datasets/tree/master/experiments_results) ###
 
 Various datasets generated in empirical evaluations.
 
