@@ -2,11 +2,13 @@
  Datasets
 ================================================================================
 
-The datasets contained in this folder are the results of research.
+The datasets contained in this folder are the results of research conducted by
+Andrea Ballatore (home page: http://sites.google.com/site/andreaballatore)
+
 This material is Open Knowledge. http://opendefinition.org
 
 ================================================================================
-Folder content: 
+Folder content:
 * experiments_results: various datasets used in evaluation of research papers.
 * mdsm-similarity_dataset: human rankings of geographic concepts, originally 
 	published in: 
