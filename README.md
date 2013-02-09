@@ -43,6 +43,8 @@ License
 ----------------------
 This material is Open Knowledge. <http://opendefinition.org>
 
-Contact
+Author & Maintainer
 ----------------------
-e-mail: `andrea[dot]ballatore[at]ucd[dot]ie`
+Andrea Ballatore <http://sites.google.com/site/andreaballatore>
+
+e-mail: `andrea [dot] ballatore [at] ucd [dot] ie`
