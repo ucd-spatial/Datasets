@@ -16,7 +16,7 @@ The dataset contains a subset of user-generated reviews randomly taken from the 
 The 14 selected reviews have been divided in two groups and assigned to different groups of real users for polarity evaluation purposes about a subset of features (also randomly selected).
 The hotel reviews in raw text are in folder `corpus` (`reviews_A` and `reviews_B`).
 
-[>> Download zipped dataset <<](https://github.com/ucd-spatial/Datasets/blob/master/sentiment_detection_hotel_reviews_dataset.zip?raw=true)
+[>> Download zipped dataset <<](https://github.com/ucd-spatial/Datasets/blob/master/downloads/sentiment_detection_hotel_reviews_dataset.zip?raw=true)
 
 The results of the survey with human subjects (and the ones automatically detected by our system) are organized in two files:
 

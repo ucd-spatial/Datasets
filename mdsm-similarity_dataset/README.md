@@ -12,7 +12,7 @@ All the files are tab-separated tables, containing the concept definitions, the 
 * `mdsm_dataset-concept_mapping_to_osm.txt` Concept mappings to OpenStreetMap
 * `mdsm_dataset-concept_mapping_to_wordnet.txt` Concept mappings to WordNet 3.0
 
-[>> Download zipped dataset <<](https://github.com/ucd-spatial/Datasets/blob/master/mdsm-similarity_dataset.zip?raw=true)
+[>> Download zipped dataset <<](https://github.com/ucd-spatial/Datasets/blob/master/downloads/mdsm-similarity_dataset.zip?raw=true)
 
 The data was originally published in:
 > MA Rodriguez, and MJ Egenhofer. Comparing geospatial entity classes: an asymmetric and context-dependent Similarity Measure. *International Journal of Geographical Information Science*, 18, no. 3 (2004): 229-256.
