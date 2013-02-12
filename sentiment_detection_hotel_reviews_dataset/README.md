@@ -28,9 +28,9 @@ The meaning of polarity values are the following:
 
 *	`-1`	= very bad
 *	`-0.5`	= bad
+*	 ` 0.5`	= good	
+*	 ` 1` 	= very good
 *	 `NA`	= not available
-*	 `0.5`	= good	
-*	 `1` 	= very good
 
 They also contained the polarity values, detected by our systems, expressed in range [-1,1] (where -1 means very bad and 1 very good). 
 Again, *NA* indicates a not available feature.
