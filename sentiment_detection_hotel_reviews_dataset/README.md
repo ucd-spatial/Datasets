@@ -32,9 +32,8 @@ The meaning of polarity values are the following:
 *	 ` 1` 	= very good
 *	 `NA`	= not available
 
-They also contained the polarity values, detected by our systems, expressed in range [-1,1] (where -1 means very bad and 1 very good). 
-Again, *NA* indicates a not available feature.
-
+They also contained the polarity values, detected by our systems, expressed in range \[-1,1\], where -1 means very bad and 1 very good. 
+`NA` indicates a feature that is not discussed in the review.
 
 ### License
 
@@ -43,7 +42,8 @@ This material is released as [Open Knowledge](http://opendefinition.org/okd).
 ### Reference
 
 If you use this dataset, please reference this article:
-(TODO: article ref)
+
+> TODO: article ref
 
 ### Contact
 
