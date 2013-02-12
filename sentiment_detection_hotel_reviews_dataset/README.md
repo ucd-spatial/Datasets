@@ -12,7 +12,7 @@ This dataset is the results of the related user study has as goal to encourage t
 
 ### Contents
 
-The dataset contains a subset of user-generated reviews randomly taken from the OpinRank data set (http://kavita-ganesan.com/entity-ranking-data).
+The dataset contains a subset of user-generated reviews randomly taken from the [OpinRank data set](http://kavita-ganesan.com/entity-ranking-data).
 The 14 selected reviews have been divided in two groups and assigned to different groups of real users for polarity evaluation purposes about a subset of features (also randomly selected).
 The hotel reviews in raw text are in folder `corpus` (`reviews_A` and `reviews_B`).
 
@@ -26,11 +26,11 @@ These files contain tab-separated tables, easily readable with R, OpenOffice, MS
 Each of the results file contains the reported polarity values detected by users for each considered feature and for each considered review:
 The meaning of polarity values are the following:
 
-*	-1		very bad
-*	-0.5	bad
-*	 NA		not available
-*	 0.5	good	
-*	 1 		very good
+*	`-1`	= very bad
+*	`-0.5`	= bad
+*	 `NA`	= not available
+*	 `0.5`	= good	
+*	 `1` 	= very good
 
 They also contained the polarity values, detected by our systems, expressed in range [-1,1] (where -1 means very bad and 1 very good). 
 Again, *NA* indicates a not available feature.
@@ -47,9 +47,7 @@ If you use this dataset, please reference this article:
 
 ### Contact
 
-For any issue/inquiry about this dataset, please contact Andrea Ballatore at
-
-andrea[dot]ballatore[at]ucd[dot]ie
+For any issue/inquiry about this dataset, please contact Andrea Ballatore at `andrea[dot]ballatore[at]ucd[dot]ie`
 
 ### Last update
 
