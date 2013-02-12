@@ -31,7 +31,7 @@ The OSM Semantic Network is a Semantic Web resource extracted from the OSM Wiki 
 Human-generated similarity rankings of geographic concepts to assess the cognitive plausibility of similarity measures.
 All the files are tab-separated tables, containing the concept definitions, the similarity rankings, and the mappings with OpenStreetMap and WordNet.
 
-### 3. [Sentiment detection in hotel reviews dataset](https://github.com/ucd-spatial/Datasets/tree/master/sentiment_detection_hotel_reviews_dataset) ###
+### 3. [Sentiment Detection in Hotel Reviews Dataset](https://github.com/ucd-spatial/Datasets/tree/master/sentiment_detection_hotel_reviews_dataset) ###
 
 Human-generated dataset that contains polarity judgements on a set of hotel reviews, with respect to specific features (e.g. room, location, etc.).
 
