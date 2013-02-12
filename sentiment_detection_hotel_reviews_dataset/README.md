@@ -1,13 +1,9 @@
-Sentiment detection in hotel reviews at the feature level: human-generated dataset
+Sentiment detection in hotel reviews at the feature level dataset
 ---------------
 
-### Authors
-* [Mario Cataldi]() <mario.cataldi@ecp.fr>
-* [Andrea Ballatore](http://sites.google.com/site/andreaballatore) <andrea.ballatore@ucd.ie>
+**Authors**: [Mario Cataldi](http://perso.ecp.fr/~cataldim), [Andrea Ballatore](http://sites.google.com/site/andreaballatore)
 
-### Keywords
-
-sentiment detection, hotel reviews, feature detection, ground truth, dataset
+**Keywords**: sentiment detection, hotel reviews, feature detection, ground truth, dataset
 
 
 ### Abstract
