@@ -5,6 +5,7 @@ Sentiment detection in hotel reviews at the feature level dataset
 
 **Keywords**: sentiment detection, hotel reviews, feature detection, ground truth, dataset
 
+**Last update**: Feb 2013
 
 ### Abstract
 
@@ -50,7 +51,3 @@ If you use this dataset, please reference this article:
 ### Contact
 
 For any issue/inquiry about this dataset, please contact Andrea Ballatore at `andrea[dot]ballatore[at]ucd[dot]ie`
-
-### Last update
-
-Feb 2013
