@@ -35,8 +35,11 @@ All the files are tab-separated tables, containing the concept definitions, the 
 
 Human-generated dataset that contains polarity judgements on a set of hotel reviews, with respect to specific features (e.g. room, location, etc.).
 
+### 4. [LaTeX Response to Reviewers Template](https://github.com/ucd-spatial/Datasets/tree/master/tex_response_to_reviewers_template) ###
 
-### 4. [Experiment results](https://github.com/ucd-spatial/Datasets/tree/master/experiments_results) ###
+A simple LaTeX template to write responses in a typical peer-review. [\[zip\](https://github.com/ucd-spatial/Datasets/blob/master/downloads/tex_response_to_reviewers_template.zip?raw=true)]
+
+### 5. [Experiment results](https://github.com/ucd-spatial/Datasets/tree/master/experiments_results) ###
 
 Various datasets generated in empirical evaluations.
 
