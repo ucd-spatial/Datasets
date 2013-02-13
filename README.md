@@ -37,7 +37,7 @@ Human-generated dataset that contains polarity judgements on a set of hotel revi
 
 ### 4. [LaTeX Response to Reviewers Template](https://github.com/ucd-spatial/Datasets/tree/master/tex_response_to_reviewers_template) ###
 
-A simple LaTeX template to write responses in a typical peer-review. [\[zip\](https://github.com/ucd-spatial/Datasets/blob/master/downloads/tex_response_to_reviewers_template.zip?raw=true)]
+A simple LaTeX template to write responses in a typical peer-review. [\[zip\]](https://github.com/ucd-spatial/Datasets/blob/master/downloads/tex_response_to_reviewers_template.zip?raw=true)
 
 ### 5. [Experiment results](https://github.com/ucd-spatial/Datasets/tree/master/experiments_results) ###
 
