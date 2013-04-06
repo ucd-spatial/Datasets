@@ -58,6 +58,6 @@ This material is Open Knowledge. <http://opendefinition.org>
 
 Author & Maintainer
 ----------------------
-Andrea Ballatore <http://sites.google.com/site/andreaballatore>
+Dr. Andrea Ballatore <http://sites.google.com/site/andreaballatore>
 
 e-mail: `andrea [dot] ballatore [at] ucd [dot] ie`
