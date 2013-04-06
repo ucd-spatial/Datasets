@@ -13,7 +13,14 @@ This dataset contains semantic relatedness and similarity judgements on 50 geogr
 
 ### Contents
 
-The 14 selected reviews have been divided in two groups and assigned to different groups of real users for polarity evaluation purposes about a subset of features (also randomly selected).
+Dataset two files:
+
+* `GeReSiD-dataset-score_means.txt`: mean scores of relatedness/similarity 
+* `GeReSiD-term_mapping-osm-wordnet.txt`
+
+
+They also contained the polarity values, detected by our systems, expressed in range \[0,1\], where 0 means no relatedness/similarity and 1 maximum relatedness/similarity. 
+
 The full responses in raw text are in folder `raw_data`.
 The raw responses of the survey with human subjects are organized in two files:
 
@@ -24,16 +31,14 @@ The raw responses of the survey with human subjects are organized in two files:
 
 These files contain comma-separated tables, easily readable with R, OpenOffice, MS Excel, and similar tools.
 
-Each of the results file contains the reported polarity values detected by users for each considered feature and for each considered review:
-The meaning of polarity values are the following:
+The meaning of relatedness/similarity values are the following:
 
 *	`1`		= very unrelated/dissimilar
-*	`...`
+*	`2,3,4` = intermediate relatedness/similarity
 *	 `5`	= very related/similar
-*	 `NA`	= not available
+*	 `NA`   = not available
 
-They also contained the polarity values, detected by our systems, expressed in range \[0,1\], where 0 means no relatedness/similarity and 1 maximum relatedness/similarity. 
-`NA` indicates a feature that is not discussed in the review.
+`NA` indicates pairs about which the subjects did not express any judgement.
 
 ### License
 
