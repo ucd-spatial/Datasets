@@ -22,7 +22,7 @@ The dataset consists of two main files, both available as tab-separated text (.t
 
 * `GeReSiD-term_mapping-osm-wordnet.txt|xls`: list of the 97 geographic terms, with mappings to WordNet.
 
-[>> Download zipped dataset <<](https://github.com/ucd-spatial/Datasets/blob/master/downloads/sentiment_detection_hotel_reviews_dataset.zip?raw=true)
+[>> Download zipped dataset <<](https://github.com/ucd-spatial/Datasets/blob/master/downloads/geresid-geo_relatedness_similarity_dataset.zip?raw=true)
 
 ### Raw data
 
