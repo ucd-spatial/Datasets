@@ -3,7 +3,7 @@ Geo-Relatedness and Similarity Dataset (GeReSiD)
 
 **Authors**: [Andrea Ballatore](http://sites.google.com/site/andreaballatore), David C. Wilson, and Michela Bertolotto
 
-**Keywords**: semantic similarity, semantic relatedness, geo-semantics, ground truth, dataset, geographic terms
+**Keywords**: semantic similarity, semantic relatedness, geo-semantics, ground truth, dataset, geographic terms, OpenStreetMap
 
 **Last update**: Apr 2013
 

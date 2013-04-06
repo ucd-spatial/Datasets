@@ -15,6 +15,7 @@ Research areas:
 * Geographic information systems
 * Geo-semantics
 * Volunteered geographic information
+* OpenStreetMap
 * Semantic similarity & relatedness
 * Semantic web
 
@@ -28,7 +29,7 @@ The OSM Semantic Network is a Semantic Web resource extracted from the OSM Wiki 
 
 ### 2. [Geo-Relatedness and Similarity Dataset (GeReSiD)](https://github.com/ucd-spatial/Datasets/tree/master/geresid-geo_relatedness_similarity_dataset) ###
 
-Geo-semantic relatedness and similarity ratings of 50 term pairs, including 97 geographic terms.
+Geo-semantic relatedness and similarity ratings of 50 term pairs, including 97 geographic terms from OpenStreetMap.
 The dataset includes relatedness/similarity judgements collected from 203 human subjects.
 
 ### 3. [MDSM Geo-Semantic Similarity Dataset](https://github.com/ucd-spatial/Datasets/tree/master/mdsm-similarity_dataset) ###
