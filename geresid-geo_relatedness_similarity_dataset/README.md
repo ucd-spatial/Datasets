@@ -32,7 +32,7 @@ The raw responses of the survey with human subjects are organized in two files, 
 * `GeReSiD-raw_responses-survey-relatedness-2012.txt`
 * `GeReSiD-raw_responses-survey-similarity-2012.txt`
 
-The meaning of relatedness/similarity values are the following:
+The meaning of relatedness/similarity values is the following:
 
 *	`1`		= very unrelated/dissimilar
 *	`2,3,4` = intermediate relatedness/similarity
@@ -40,6 +40,7 @@ The meaning of relatedness/similarity values are the following:
 *	 `NA`   = not available
 
 `NA` indicates pairs about which the subjects did not express any judgement.
+The raw data contains fully anonymised demographic information about the human subjects (age group, continent of origin, familiarity with Web maps, etc.).
 
 ### License
 
