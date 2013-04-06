@@ -16,7 +16,7 @@ The relatedness/similarity was collected from 203 human subjects on February 201
 
 ### Contents
 
-The dataset consists of two main files:
+The dataset consists of two main files, both available as tab-separated text (.txt) and MS Excel (.xls):
 
 * `GeReSiD-dataset-score_means.txt|xls`: mean scores of semantic relatedness/similarity on 50 pairs of geographic terms. The relatedness/similarity score is the mean of all human subjects, normalised in range \[0,1\], where 0 means no relatedness/similarity and 1 maximum relatedness/similarity.
 
@@ -27,7 +27,7 @@ The dataset consists of two main files:
 ### Raw data
 
 The full, raw responses from which these two files were extracted in are in folder `raw_data`.
-The raw responses of the survey with human subjects are organized in two files, available both as tab-separated text and MS Excel:
+The raw responses of the survey with human subjects are organized in two files, encoded as tab-separated text:
 
 * `GeReSiD-raw_responses-survey-relatedness-2012.txt`
 * `GeReSiD-raw_responses-survey-similarity-2012.txt`
