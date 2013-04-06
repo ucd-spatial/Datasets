@@ -22,14 +22,13 @@ Dataset two files:
 They also contained the polarity values, detected by our systems, expressed in range \[0,1\], where 0 means no relatedness/similarity and 1 maximum relatedness/similarity. 
 
 The full responses in raw text are in folder `raw_data`.
-The raw responses of the survey with human subjects are organized in two files:
+The raw responses of the survey with human subjects are organized in two files, available both as tab-separated text and MS Excel:
 
-* `GeReSiD-raw_responses-survey-relatedness-2012.txt`
-* `GeReSiD-raw_responses-survey-similarity-2012.txt`
+* `GeReSiD-raw_responses-survey-relatedness-2012.txt|xls`
+* `GeReSiD-raw_responses-survey-similarity-2012.txt|xls`
 
 [>> Download zipped dataset <<](https://github.com/ucd-spatial/Datasets/blob/master/downloads/sentiment_detection_hotel_reviews_dataset.zip?raw=true)
 
-These files contain comma-separated tables, easily readable with R, OpenOffice, MS Excel, and similar tools.
 
 The meaning of relatedness/similarity values are the following:
 
