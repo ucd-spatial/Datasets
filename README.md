@@ -7,9 +7,9 @@ A list of related publications is maintained [here](http://sites.google.com/site
 
 Members & contributors:
 
-* Andrea Ballatore <http://sites.google.com/site/andreaballatore>
-* Dr. Michela Bertolotto <http://www.csi.ucd.ie/staff/mbertolotto/home>
-* Dr. David C. Wilson <http://coitweb.uncc.edu/~davils>
+* Dr. Andrea Ballatore  <http://sites.google.com/site/andreaballatore>
+* Dr. Michela Bertolotto  <http://www.csi.ucd.ie/staff/mbertolotto/home>
+* Prof. David C. Wilson  <http://coitweb.uncc.edu/~davils>
 
 Research areas:
 * Geographic information systems
@@ -26,16 +26,21 @@ This repository contains the following datasets:
 
 The OSM Semantic Network is a Semantic Web resource extracted from the OSM Wiki website, encoded as a SKOS vocabulary. It contains a machine-readable representation of OpenStreetMap tags, and several semantic relations between them.
 
-### 2. [MDSM Geo-Semantic Similarity Dataset](https://github.com/ucd-spatial/Datasets/tree/master/mdsm-similarity_dataset) ###
+### 2. [Geo-Relatedness and Similarity Dataset (GeReSiD)](https://github.com/ucd-spatial/Datasets/tree/master/geresid-geo_relatedness_similarity_dataset) ###
+
+Geo-semantic relatedness and similarity ratings of 50 term pairs, including 97 geographic terms.
+The dataset includes relatedness/similarity judgements collected from 203 human subjects.
+
+### 3. [MDSM Geo-Semantic Similarity Dataset](https://github.com/ucd-spatial/Datasets/tree/master/mdsm-similarity_dataset) ###
 
 Human-generated similarity rankings of geographic concepts to assess the cognitive plausibility of similarity measures.
 All the files are tab-separated tables, containing the concept definitions, the similarity rankings, and the mappings with OpenStreetMap and WordNet.
 
-### 3. [Sentiment Detection in Hotel Reviews Dataset](https://github.com/ucd-spatial/Datasets/tree/master/sentiment_detection_hotel_reviews_dataset) ###
+### 4. [Sentiment Detection in Hotel Reviews Dataset](https://github.com/ucd-spatial/Datasets/tree/master/sentiment_detection_hotel_reviews_dataset) ###
 
 Human-generated dataset that contains polarity judgements on a set of hotel reviews, with respect to specific features (e.g. room, location, etc.).
 
-### 4. [LaTeX Response to Reviewers Template](https://github.com/ucd-spatial/Datasets/tree/master/tex_response_to_reviewers_template) ###
+### 5. [LaTeX Response to Reviewers Template](https://github.com/ucd-spatial/Datasets/tree/master/tex_response_to_reviewers_template) ###
 
 A simple LaTeX template to write responses in a typical peer-review. [\[zip\]](https://github.com/ucd-spatial/Datasets/blob/master/downloads/tex_response_to_reviewers_template.zip?raw=true)
 
