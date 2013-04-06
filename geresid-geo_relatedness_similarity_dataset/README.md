@@ -9,26 +9,28 @@ Geo-Relatedness and Similarity Dataset (GeReSiD)
 
 ### Abstract
 
-This dataset contains semantic relatedness and similarity judgements on 50 geographic terms. 
+This dataset contains a-contextual semantic relatedness and similarity judgements on 50 pairs of geographic terms.
+For example, term pair `motel` and `hotel` have relatedness=0.93 and similarity=0.9.	The dataset also contains the interrater agreement for each pair (e.g. 0.86 for relatedness, and 0.82 for similarity).
+The terms were selected from OpenStreetMap and are mapped to WordNet.
+The relatedness/similarity was collected from 203 human subjects on February 2012.
 
 ### Contents
 
-Dataset two files:
+The dataset consists of two main files:
 
-* `GeReSiD-dataset-score_means.txt`: mean scores of relatedness/similarity 
-* `GeReSiD-term_mapping-osm-wordnet.txt`
+* `GeReSiD-dataset-score_means.txt|xls`: mean scores of semantic relatedness/similarity on 50 pairs of geographic terms. The relatedness/similarity score is the mean of all human subjects, normalised in range \[0,1\], where 0 means no relatedness/similarity and 1 maximum relatedness/similarity.
 
-
-They also contained the polarity values, detected by our systems, expressed in range \[0,1\], where 0 means no relatedness/similarity and 1 maximum relatedness/similarity. 
-
-The full responses in raw text are in folder `raw_data`.
-The raw responses of the survey with human subjects are organized in two files, available both as tab-separated text and MS Excel:
-
-* `GeReSiD-raw_responses-survey-relatedness-2012.txt|xls`
-* `GeReSiD-raw_responses-survey-similarity-2012.txt|xls`
+* `GeReSiD-term_mapping-osm-wordnet.txt|xls`: list of the 97 geographic terms, with mappings to WordNet.
 
 [>> Download zipped dataset <<](https://github.com/ucd-spatial/Datasets/blob/master/downloads/sentiment_detection_hotel_reviews_dataset.zip?raw=true)
 
+### Raw data
+
+The full, raw responses from which these two files were extracted in are in folder `raw_data`.
+The raw responses of the survey with human subjects are organized in two files, available both as tab-separated text and MS Excel:
+
+* `GeReSiD-raw_responses-survey-relatedness-2012.txt`
+* `GeReSiD-raw_responses-survey-similarity-2012.txt`
 
 The meaning of relatedness/similarity values are the following:
 
