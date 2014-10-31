@@ -50,8 +50,8 @@ This material is released as [Open Knowledge](http://opendefinition.org/okd).
 
 If you use this dataset, please reference this article:
 
-> TODO: article ref
+> A. Ballatore, M. Bertolotto, & D.C. Wilson, An evaluative baseline for geo-semantic relatedness and similarity, GeoInformatica, 18(4), 747-767, 2014.
 
 ### Contact
 
-For any issue/inquiry about this dataset, please contact Andrea Ballatore at `andrea[dot]ballatore[at]ucd[dot]ie`
+For any issue/inquiry about this dataset, please contact Andrea Ballatore at `andrea[dot]ballatore[at]gmail[dot]com`
